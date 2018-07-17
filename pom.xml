@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.leeves</groupId>
+    <artifactId>ws-r-new-demo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>ws-r-new-demo</name>
+    <description>Demo project for Spring Boot</description>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.3.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web-services</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <version>0.14.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <schemaLanguage>WSDL</schemaLanguage>
+                    <generatePackage>com.leeves.wsrnewdemo.ws.leeves</generatePackage>
+                    <generateDirectory>${basedir}/src/main/java</generateDirectory>
+                    <schemas>
+                        <schema>
+                            <!--<fileset>-->
+                            <!--&lt;!&ndash; Defaults to schemaDirectory. &ndash;&gt;-->
+                            <!--<directory>${basedir}/src/main/resources/schemas</directory>-->
+                            <!--&lt;!&ndash; Defaults to schemaIncludes. &ndash;&gt;-->
+                            <!--<includes>-->
+                            <!--<include>*.wsdl</include>-->
+                            <!--</includes>-->
+                            <!--&lt;!&ndash; Defaults to schemaIncludes &ndash;&gt;-->
+                            <!--&lt;!&ndash;<excludes>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<exclude>*.xs</exclude>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</excludes>&ndash;&gt;-->
+                            <!--</fileset>-->
+                            <url>http://localhost:7007/ws/leevesService.wsdl</url>
+                        </schema>
+                    </schemas>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>
