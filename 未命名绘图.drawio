@@ -160,11 +160,11 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pgBQvQBJmPhftotB_wVR-96" value="sms server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;container=0;" vertex="1" parent="1">
-          <mxGeometry x="906.9574885844748" y="570" width="101.21765601217655" height="30" as="geometry" />
+        <mxCell id="pgBQvQBJmPhftotB_wVR-96" value="sms server &amp;amp; wx proxy" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="570" width="133.04" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pgBQvQBJmPhftotB_wVR-97" value="wx proxy" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="985.1400000000001" y="510" width="67.43" height="30" as="geometry" />
+        <mxCell id="pgBQvQBJmPhftotB_wVR-97" value="10.9.26.160:10850" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="925.0000000000001" y="460" width="67.43" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pgBQvQBJmPhftotB_wVR-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pgBQvQBJmPhftotB_wVR-63" target="pgBQvQBJmPhftotB_wVR-96">
           <mxGeometry relative="1" as="geometry" />
