@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pgBQvQBJmPhftotB_wVR-72" value="" style="whiteSpace=wrap;html=1;fillStyle=hatch;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="50.00000000000005" y="630" width="1030" height="810" as="geometry" />
+        </mxCell>
         <mxCell id="pgBQvQBJmPhftotB_wVR-1" value="" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;fillStyle=hatch;" vertex="1" parent="1">
           <mxGeometry x="387.5" y="460" width="308" height="140" as="geometry" />
         </mxCell>
@@ -85,9 +88,6 @@
         <mxCell id="pgBQvQBJmPhftotB_wVR-29" value="&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;10.0.30.138:26379;&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;10.0.30.139:26379;&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;10.0.30.140:26379&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pgBQvQBJmPhftotB_wVR-70">
           <mxGeometry x="30" y="6" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pgBQvQBJmPhftotB_wVR-72" value="" style="whiteSpace=wrap;html=1;fillStyle=hatch;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
-          <mxGeometry x="50.00000000000005" y="630" width="1030" height="810" as="geometry" />
-        </mxCell>
         <mxCell id="pgBQvQBJmPhftotB_wVR-77" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="660" y="1040" width="370" height="170" as="geometry" />
         </mxCell>
@@ -163,8 +163,8 @@
         <mxCell id="pgBQvQBJmPhftotB_wVR-96" value="sms server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;container=0;" vertex="1" parent="1">
           <mxGeometry x="906.9574885844748" y="570" width="101.21765601217655" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pgBQvQBJmPhftotB_wVR-97" value="proxy" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="992.5699999999999" y="510" width="60" height="30" as="geometry" />
+        <mxCell id="pgBQvQBJmPhftotB_wVR-97" value="wx proxy" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="985.1400000000001" y="510" width="67.43" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
